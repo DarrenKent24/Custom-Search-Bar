@@ -12,6 +12,8 @@
 		58ED816020104AF500648BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ED815E20104AF500648BEC /* Main.storyboard */; };
 		58ED816220104AF500648BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58ED816120104AF500648BEC /* Assets.xcassets */; };
 		58ED816520104AF500648BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58ED816320104AF500648BEC /* LaunchScreen.storyboard */; };
+		58ED816D20104B7000648BEC /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED816C20104B7000648BEC /* CustomSearchBar.swift */; };
+		58ED817120104C0000648BEC /* CustomSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58ED817020104C0000648BEC /* CustomSearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		58ED816120104AF500648BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58ED816420104AF500648BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58ED816620104AF600648BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58ED816C20104B7000648BEC /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		58ED817020104C0000648BEC /* CustomSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				58ED816120104AF500648BEC /* Assets.xcassets */,
 				58ED816320104AF500648BEC /* LaunchScreen.storyboard */,
 				58ED816620104AF600648BEC /* Info.plist */,
+				58ED816C20104B7000648BEC /* CustomSearchBar.swift */,
+				58ED817020104C0000648BEC /* CustomSearchController.swift */,
 			);
 			path = "Custom Search Bar";
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58ED817120104C0000648BEC /* CustomSearchController.swift in Sources */,
 				58ED815D20104AF500648BEC /* ViewController.swift in Sources */,
 				58ED815B20104AF500648BEC /* AppDelegate.swift in Sources */,
+				58ED816D20104B7000648BEC /* CustomSearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XW95U3DQX;
 				INFOPLIST_FILE = "Custom Search Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "darren.kent.Custom-Search-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XW95U3DQX;
 				INFOPLIST_FILE = "Custom Search Bar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "darren.kent.Custom-Search-Bar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
